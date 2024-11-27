@@ -10,7 +10,7 @@ Advanced drumming metronome (Alpha)
 - [SPACE] to reset
 - [ESC] to pause
 - If you want to test with your keyboard check out the hotkeys by clicking on the 🥁 icon
-- You can also change the keys or configure your midi mapping from here by hittin a drum
+- You can also change the keys or configure your midi mapping from here by hitting a drum
 - You're hit % is displayed at the top
 
 ## Playback
