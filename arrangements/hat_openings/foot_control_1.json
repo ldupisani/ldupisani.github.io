@@ -1,0 +1,38 @@
+{
+    "length" : 1.0,
+    "repeats" : 100,
+    "tracks" : [
+        {
+            "note" : "HAT_CLOSED",
+            "events" : [
+                [ 0.00, 80 ],
+                [ 0.50, 80 ]
+            ]
+        },
+        {
+            "note" : "HAT_OPEN",
+            "events" : [
+                [ 0.25, 80 ],
+                [ 0.75, 80 ]
+            ]
+        }, 
+        {
+            "note" : "HAT_PEDAL",
+            "events" : [
+                [ 0.375, 127 ],
+                [ 0.875, 127 ]
+            ]
+        },  
+        {
+            "note" : "KICK_RIGHT",
+            "events" : [
+                [ 0.00, 80 ],
+                [ 0.50, 80 ]
+            ]
+        }
+ 
+    ],
+    "grid" : {
+        "linesPerBeat" : 8
+    }
+}

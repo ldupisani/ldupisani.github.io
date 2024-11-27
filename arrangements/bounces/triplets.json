@@ -1,0 +1,16 @@
+{
+    "length" : 1.0,
+    "repeats" : 100,
+    "tracks" : [
+        {
+            "note" : "SNARE_CENTER",
+            "events" : [
+                [ 0.00, 70 ],
+                [ 0.667, 70 ]
+            ]
+        }     
+    ],
+    "grid" : {
+        "linesPerBeat" : 3
+    }
+}

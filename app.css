@@ -1,0 +1,124 @@
+* {
+  font-family: "Roboto";
+}
+
+label {
+  font-size: 0.75rem;
+  color: #808ac4;
+  display: block;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #73b100;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+select {
+  font-size: 1rem;
+}
+
+dialog {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.hud {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.hud td {
+  height: 40px;
+  width: 40px;
+  color: white;
+}
+
+.hud-column-left {
+  flex: 1;
+  flex-shrink: 2;
+  text-align: left;
+  z-index: 100;
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+.hud-column-middle {
+  flex: 1 1 300px;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hud-column-right {
+  text-align: right;
+  flex: 1;
+  flex-shrink: 2;
+  color: white;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 100%;
+  text-align: left;
+  z-index: 100;
+  display: block;
+  color: white;
+}
+
+#editGrid input[type="button"] {
+  width: 46px;
+  height: 46px;
+  font-size: 1rem;
+  background-color: #5f6fcc;
+  color: white;
+}
+
+#inputPreview {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#inputSettingsDialog {
+  width: 300px;
+}
+
+#inputSettingsDialog table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#inputSettingsDialog .selected {
+  background-color: #5f6fcc;
+  color: white;
+}
+
+.buttonStrip {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberInput {
+  font-size: 2rem;
+}
