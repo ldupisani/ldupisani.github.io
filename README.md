@@ -1,4 +1,4 @@
-# ldupisani.github.io
+# [ldupisani.github.io](https://ldupisani.github.io/)
 
 Advanced drumming metronome (Alpha)
 
