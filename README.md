@@ -45,9 +45,12 @@ Advanced drumming metronome (Alpha)
 - You can also hit the + button to create your own from the selected template
 - This will save your exercise in a slot
 - You can `EDIT` the hits and velocities
-- To change the velocity of a note hover over it and use the [+] or [-] key
 - Use the arrow keys to move the cursor forward or bakwards
 - [UP] = Snap FWD, [RIGHT] = Nudge FWD, [DN] = Snap BACK, [LEFT] = Nudge Back
 - Or use the buttons that pop up when you hit `EDIT`
-- You can also just hit a drum to add or remove it at the cursor position at a given velocity
+- You can hit a drum to add or remove it at the cursor position
 - There is a `Copy` icon that will duplicate the last hit at the current cursor position
+- To change the velocity of a note hover over it and use the [+] or [-] key
+- You can also click on a position in the lane to add a note at the last velocity
+- You might see different colors when you hover over a position on the lane
+- Click on the color that corresponds with the sound you want to add to that lane

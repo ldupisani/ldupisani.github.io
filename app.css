@@ -2,6 +2,10 @@
   font-family: "Roboto";
 }
 
+body {
+  overflow: hidden;
+}
+
 label {
   font-size: 0.75rem;
   color: #808ac4;
