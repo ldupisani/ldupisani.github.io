@@ -78,15 +78,40 @@ dialog {
   padding: 10px;
 }
 
-#footer {
+.footer {
   position: absolute;
   bottom: 10px;
-  left: 10px;
   width: 100%;
+  text-align: left;
+  z-index: 100;
+  display: flex;
+  color: white;
+}
+
+.footer-column-left {
+  flex: 1;
   text-align: left;
   z-index: 100;
   display: block;
   color: white;
+  padding: 20px;
+}
+
+.footer-column-right {
+  flex: 1;
+  text-align: right;
+  z-index: 100;
+  display: block;
+  color: white;
+  padding: 20px;
+}
+
+#midi {
+  display: inline-block;
+}
+
+#hints {
+  display: inline-block;
 }
 
 #editGrid input[type="button"] {
