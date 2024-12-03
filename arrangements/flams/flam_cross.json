@@ -1,28 +1,28 @@
 {
-    "length" : 1.0,
-    "repeats" : 50,
-    "tracks" : [
-        {
-            "note" : "SNARE_CENTER",
-            "events" : [
-                [ -0.03, 40 ],
-                [ 0.25, 110 ],
-                [ 0.47, 40 ],
-                [ 0.75, 110 ]
-            ]
-        },
-        
-        {
-            "note" : "TOM_FLOOR",
-            "events" : [
-                [ 0.00, 110 ],
-                [ 0.22, 40 ],
-                [ 0.50, 110 ],
-                [ 0.72, 40 ]
-            ]
-        }  
-    ],
-    "grid" : {
-        "linesPerBeat" : 8
+  "length": 1,
+  "repeats": 50,
+  "tracks": [
+    {
+      "note": "SNARE_CENTER",
+      "events": [
+        [0.25, 90],
+        [0.47, 40],
+        [0.75, 90],
+        [0.97, 40]
+      ]
+    },
+
+    {
+      "note": "TOM_FLOOR",
+      "events": [
+        [0.0, 90],
+        [0.22, 40],
+        [0.5, 90],
+        [0.72, 40]
+      ]
     }
+  ],
+  "grid": {
+    "linesPerBeat": 8
+  }
 }

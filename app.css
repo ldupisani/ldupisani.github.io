@@ -10,6 +10,7 @@ label {
   font-size: 0.75rem;
   color: #808ac4;
   display: block;
+  margin-bottom: 2px;
 }
 
 input[type="button"],
@@ -140,6 +141,10 @@ dialog {
 #inputSettingsDialog .selected {
   background-color: #5f6fcc;
   color: white;
+}
+
+.exerciseInputs {
+  padding-top: 10px;
 }
 
 .buttonStrip {
