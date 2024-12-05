@@ -2,6 +2,17 @@
   font-family: "Roboto";
 }
 
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+i:hover {
+  color: #68dfef;
+}
+
 body {
   overflow: hidden;
 }
